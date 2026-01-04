@@ -8,8 +8,9 @@ const port = process.env.PORT || 3000;
     res.render('index', { 
         nombre: " GINNY ", 
         cedula: "31.523.456", 
-        seccion: "Sección 4"
-});
+        seccion: "Sección 4",
+        horario: "2:00pm - 3:15pm"
+      });
   });
 
   app.listen (port,() => { 
